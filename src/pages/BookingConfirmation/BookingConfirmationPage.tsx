@@ -37,10 +37,13 @@ export function BookingConfirmationPage() {
           )}
 
           <button
-            onClick={() => navigate('/')}
+            onClick={() => {
+              navigate('/');
+              window.location.reload();
+            }}
             className="bg-[#FF6600] text-white px-8 py-3 rounded-lg font-medium hover:bg-[#e65c00] transition-colors flex items-center justify-center space-x-2 w-full"
           >
-            <Home className="w-5 h-5" />
+            <Home className="w-5 h-5" href='/'/>
             <span>Return to Home</span>
           </button>
         </div>

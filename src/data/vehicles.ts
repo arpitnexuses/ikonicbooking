@@ -38,7 +38,7 @@ export const vehicles: Vehicle[] = [
     name: 'Range Rover Autobiography',
     type: 'SUV',
     capacity: 5,
-    imageUrl: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&q=80',
+    imageUrl: 'https://cdn-nexlink.s3.us-east-2.amazonaws.com/20220705111314_Range-Rover-1_3dc6571e-fcb4-4695-8e43-686dd8ddd15a.jpg',
     pricePerKm: 6,
     pricePerHour: 300,
     features: [
